@@ -5,5 +5,5 @@ from . import views
 app_name= "electreeksspy"
 
 urlpatterns = [
-    path(''; views.index, name="index")
+    path('', views.index, name="index")
 ]
