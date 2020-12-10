@@ -1,13 +1,53 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>First View!</title>
-  </head>
-  <body>
-    <h1>Congrats! your first view of Electreeks.Spy</h1>
-    <p>Keep the faith!</p>
-    {% load static %}
-    <img src="{% static 'electreeksspy/img/dummybild.jpg' %}" alt="There is a dummy on this pic">
-  </body>
+<html land="en">
+    <head>
+        <title>[Sitetitle] | [Pagetitle]</title>
+        {% load static %}
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" media="screen and (min-width: 1025px)" href="{% static 'electreeksspy/css/style.css' %}">
+        <link rel="stylesheet" media="screen and (max-width: 1024px)" href="{% static 'electreeksspy/css/mobile.css' %}">
+    </head>
+    <body>
+        <header id="header">
+            <nav class="navbar">
+                <div class="flex-container">
+                    <div class="header-left-wrap">
+                        <a class="navbar-brand" href="#">
+                            <img src="{% static 'electreeksspy/img/Logo_300×300_Electreeks_rework.png' %}" width="60" height="60" alt="Electreeks_logo" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="header-left-wrap">
+                        <h1 id="header-title">Electreeks [Pagetitle]</h1>
+                        <h2 id="header-subtitle">Spy [Sitetitle]</h2>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div id="page-container">
+            <div id="content-wrap">
+                <div class="flex-container">
+                    <div id="main-leftcontainer-stream">
+                        <img id="InStream" src="{% static 'electreeksspy/img/dummybild.jpg' %}" width="100%"/>
+                    </div>
+                    <div id="main-rightcontainer-objectmodels">
+                        <h4>Objectmodels</h4>
+                        <p>Hier Tabelle mit Objekten, Anzahl erkannte Objekte und average Treshold</p>
+                    </div>
+                </div>
+            </div>
+            <footer id="footer" class="flex-container">
+                    <div class="footer-column">
+                        Hallo
+                    </div>
+                    <div class="footer-column">
+                        Hallo
+                    </div>
+                    <div class="footer-column">
+                        Hallo
+                    </div>
+
+            </footer>
+        </div>
+
+    </body>
 </html>
