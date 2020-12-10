@@ -1,1 +1,322 @@
-<mxfile host="app.diagrams.net" modified="2020-12-08T13:42:40.024Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="-be2fnbPayAARqEoQ4-l" version="13.10.9" type="gitlab"><diagram id="gCtRltX2zBlE8-tqLiqz" name="Chart_Frontend_Backend">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</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-10T15:11:41.238Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="KtW31WTNODdLJZgdsr3G" version="13.10.9" type="gitlab">
+  <diagram id="gCtRltX2zBlE8-tqLiqz" name="Chart_Frontend_Backend">
+    <mxGraphModel dx="2160" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="68" y="130" width="675" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-3" value="Fronted" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" parent="1" vertex="1">
+          <mxGeometry x="290" y="20" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-5" value="using: HTML5, CSS3, &amp;nbsp;JS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="290" y="80" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-6" value="Output Frame&lt;br&gt;&lt;br&gt;get from python object recognition as html compatible output" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="220" width="330" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" parent="1" source="6mEV-eRLMB2JvA0w7fUY-2" target="6mEV-eRLMB2JvA0w7fUY-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-10" value="Objects | &amp;nbsp;Amount | Avg. Confidence" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="450" y="220" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="69.5" y="130" width="672.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-12" value="Logo" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="135" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-13" value="Electreeks [from pagetitle]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="140" y="140" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-14" value="Spy [from site title = subdomain]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="151" y="160" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-15" value="time" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="550" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="69" y="610" width="672" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-17" value="Disclaimer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="570" y="617" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-18" value="privacy [Link electreeks.de/Datenschutz_en]&lt;br&gt;legal notice [Link electreeks.de/impressum_en]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="617" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-19" value="(c) &amp;nbsp;Electreeks(r)&lt;br&gt;by Hans Umlauft&lt;br&gt;2020" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="385" y="620" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;entryX=-0.001;entryY=0.872;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6mEV-eRLMB2JvA0w7fUY-20" target="6mEV-eRLMB2JvA0w7fUY-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="70" y="700" width="250" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-23" value="" style="triangle;whiteSpace=wrap;html=1;fontSize=12;rotation=-180;" parent="1" vertex="1">
+          <mxGeometry x="222" y="712" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-22" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="122" y="718" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-24" value="JS Stream&lt;br&gt;by get_user_media&lt;br&gt;#userstream" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="110" y="790" width="168" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-25" value="Versionsinformationen&amp;nbsp;&lt;br&gt;Browser" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="540" y="640" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-27" value="&lt;h1&gt;Advice:&lt;/h1&gt;&lt;p&gt;The stream have to embed on home page because of consent camera access.&amp;nbsp;&lt;/p&gt;&lt;p&gt;3 Opportunities (just ideas):&lt;/p&gt;&lt;p&gt;1. Caching - loading stream first&lt;/p&gt;&lt;p&gt;2. Deamon + Cookie&lt;/p&gt;&lt;p&gt;3. Videotag with Display none or as pixel&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="88" y="840" width="190" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-29" value="Render Categories and show only detected&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;get objects from python backend and map for HTML Render { % print for %}&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Calculate average confidence of all detected classes and objects count" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="440" y="267.5" width="270" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="120" width="530" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-31" value="&lt;h1&gt;App: cvVideoStream&lt;/h1&gt;&lt;p&gt;1. cvGetStream() {&lt;/p&gt;&lt;p&gt;cv2.VideoCapture(Stream-URL [spy.electreeks.de/#userstream])&lt;/p&gt;&lt;p&gt;frame = save Stream in variable&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="140" width="500" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-32" value="Backend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="10" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-33" value="using: HTML5, CSS3, &amp;nbsp;JS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="70" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.005;exitY=0.668;exitDx=0;exitDy=0;fontSize=12;exitPerimeter=0;" parent="1" source="6mEV-eRLMB2JvA0w7fUY-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="808" />
+              <mxPoint x="360" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.011;exitY=0.923;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;exitPerimeter=0;" parent="1" source="6mEV-eRLMB2JvA0w7fUY-34" target="6mEV-eRLMB2JvA0w7fUY-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="856" y="894" />
+              <mxPoint x="856" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-34" value="&lt;h1&gt;App: Object recognition&lt;/h1&gt;&lt;p&gt;import/Get Model and related class array as well as model based requirements&lt;/p&gt;&lt;p&gt;import cvGetStream()&lt;/p&gt;&lt;p&gt;Do objects recognition&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;return cv output as frame with&amp;nbsp;&lt;/p&gt;&lt;p&gt;rectangles, Confidence, and class&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;return classes, number of detected classes and avg. Confidence of each class. Save it in Array and map it for HMTL insertion.&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="583" width="370" height="337" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-35" value="&lt;h1&gt;App/File: Object classes / model&lt;/h1&gt;&lt;p&gt;&lt;i&gt;Remark: Later migrate in Database&lt;/i&gt;&lt;/p&gt;&lt;p&gt;Load model and safe in variable&amp;nbsp;&lt;/p&gt;&lt;p&gt;define related classes in Array&lt;/p&gt;&lt;p&gt;specify model-based requirements and return for object recognition:&lt;/p&gt;&lt;p&gt;- imgsize&lt;/p&gt;&lt;p&gt;- color channel&lt;/p&gt;&lt;p&gt;- Shape of img Array&lt;/p&gt;&lt;p&gt;- .. ?&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="290" width="370" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-38" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;columnLines=0;rowLines=0;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="-600" y="50" width="550" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-39" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6mEV-eRLMB2JvA0w7fUY-38" vertex="1">
+          <mxGeometry width="550" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-40" value="Date" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=16;fontStyle=1" parent="6mEV-eRLMB2JvA0w7fUY-39" vertex="1">
+          <mxGeometry width="183" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-41" value="Name" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=16;fontStyle=1" parent="6mEV-eRLMB2JvA0w7fUY-39" vertex="1">
+          <mxGeometry x="183" width="184" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-42" value="Modifications" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=16;fontStyle=1" parent="6mEV-eRLMB2JvA0w7fUY-39" vertex="1">
+          <mxGeometry x="367" width="183" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-43" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6mEV-eRLMB2JvA0w7fUY-38" vertex="1">
+          <mxGeometry y="60" width="550" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-44" value="08.12.2020" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=16;" parent="6mEV-eRLMB2JvA0w7fUY-43" vertex="1">
+          <mxGeometry width="183" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-45" value="Hans Umlauft" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=16;" parent="6mEV-eRLMB2JvA0w7fUY-43" vertex="1">
+          <mxGeometry x="183" width="184" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-46" value="Created" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=16;" parent="6mEV-eRLMB2JvA0w7fUY-43" vertex="1">
+          <mxGeometry x="367" width="183" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-47" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6mEV-eRLMB2JvA0w7fUY-38" vertex="1">
+          <mxGeometry y="120" width="550" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-48" value="Value 7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=16;" parent="6mEV-eRLMB2JvA0w7fUY-47" vertex="1">
+          <mxGeometry width="183" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-49" value="Value 8" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=16;" parent="6mEV-eRLMB2JvA0w7fUY-47" vertex="1">
+          <mxGeometry x="183" width="184" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-50" value="Value 9" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=16;" parent="6mEV-eRLMB2JvA0w7fUY-47" vertex="1">
+          <mxGeometry x="367" width="183" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="6mEV-eRLMB2JvA0w7fUY-52" target="6mEV-eRLMB2JvA0w7fUY-62" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6mEV-eRLMB2JvA0w7fUY-52" target="6mEV-eRLMB2JvA0w7fUY-54" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-670" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-52" value="Django Project: ElectreeksTool" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="400" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-53" value="Directory structure" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=56;" parent="1" vertex="1">
+          <mxGeometry x="-760" y="290" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" parent="1" source="6mEV-eRLMB2JvA0w7fUY-54" target="6mEV-eRLMB2JvA0w7fUY-59" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" parent="1" source="6mEV-eRLMB2JvA0w7fUY-54" target="6mEV-eRLMB2JvA0w7fUY-61" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" parent="1" source="6mEV-eRLMB2JvA0w7fUY-54" target="6mEV-eRLMB2JvA0w7fUY-58" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-54" value="APP: ObjectRecognition" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-600" y="1580" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-56" value="cvVideoStream.py" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-560" y="1780" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-57" value="Models.py" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-560" y="1640" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-58" value="# import with cv2.VideoCapture JS Stream via URL and ID&lt;br&gt;# save in a variable&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-560" y="1820" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-59" value="# from cvVideoStream get stream&lt;br&gt;# from RecognitionModel import ... [loaded Model, classes, img requirements]&lt;br&gt;# do image recognition&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-560" y="1680" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-60" value="RecognitionModel.py" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-560" y="1920" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-61" value="# load model&lt;br&gt;# define classes&lt;br&gt;# define image parameter" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-560" y="1960" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="6mEV-eRLMB2JvA0w7fUY-62" target="6mEV-eRLMB2JvA0w7fUY-64" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="6mEV-eRLMB2JvA0w7fUY-62" target="6mEV-eRLMB2JvA0w7fUY-66" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-62" value="APP: ElectreeksSpy" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-600" y="480" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-63" value="Models.py" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-560" y="550" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-64" value="# from app &amp;nbsp;objectrecognition.models get method&lt;br&gt;&lt;br&gt;# call method" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-560" y="590" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="6mEV-eRLMB2JvA0w7fUY-66" target="6mEV-eRLMB2JvA0w7fUY-67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="6mEV-eRLMB2JvA0w7fUY-66" target="6mEV-eRLMB2JvA0w7fUY-68" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-66" value="/templates/ElectreeksSpy/" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-560" y="700" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-67" value="index.html" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-520" y="765" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="6mEV-eRLMB2JvA0w7fUY-68" target="6mEV-eRLMB2JvA0w7fUY-72" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="6mEV-eRLMB2JvA0w7fUY-68" target="6mEV-eRLMB2JvA0w7fUY-75" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="6mEV-eRLMB2JvA0w7fUY-68" target="6mEV-eRLMB2JvA0w7fUY-78" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="6mEV-eRLMB2JvA0w7fUY-68" target="6mEV-eRLMB2JvA0w7fUY-81" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-68" value="/src/" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-520" y="820" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-69" value="style.css" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-440" y="935" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-70" value="styleMobile.css" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-440" y="995" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="6mEV-eRLMB2JvA0w7fUY-72" target="6mEV-eRLMB2JvA0w7fUY-69" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="6mEV-eRLMB2JvA0w7fUY-72" target="6mEV-eRLMB2JvA0w7fUY-70" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-72" value="/css/" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-480" y="875" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-73" value="main.js" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-440" y="1125" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-74" value="userstream.js" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-440" y="1185" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="6mEV-eRLMB2JvA0w7fUY-75" target="6mEV-eRLMB2JvA0w7fUY-73" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="6mEV-eRLMB2JvA0w7fUY-75" target="6mEV-eRLMB2JvA0w7fUY-74" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="6mEV-eRLMB2JvA0w7fUY-75" target="6mEV-eRLMB2JvA0w7fUY-79" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-75" value="/js/" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-480" y="1065" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-76" value="logo / &amp;nbsp;Streamplaceholder etc." style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-440" y="1375" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="6mEV-eRLMB2JvA0w7fUY-78" target="6mEV-eRLMB2JvA0w7fUY-76" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-78" value="/img/" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-480" y="1315" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-79" value="some required frameworks" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-440" y="1245" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-80" value="required Fontstyles" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-440" y="1505" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="6mEV-eRLMB2JvA0w7fUY-81" target="6mEV-eRLMB2JvA0w7fUY-80" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-81" value="/fnt/" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-480" y="1445" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-100" value="- Django&lt;br&gt;- Apache 2.4.x&lt;br&gt;- OpenCV Python 4.4.0&lt;br&gt;- Python 3.9.0&lt;br&gt;- PIP&lt;br&gt;- Brew" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="90" y="1265" width="760" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-101" value="&lt;h1&gt;&lt;font style=&quot;font-size: 40px&quot;&gt;Webserver Requirements&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;Applications, Tools, Safeties, Users, balancing, processing, etc.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;align=left;" parent="1" vertex="1">
+          <mxGeometry x="90" y="1165" width="500" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEV-eRLMB2JvA0w7fUY-107" value="Remark:&lt;br&gt;Maybe not use models at the moment. Instead create own python files - therefore check Django docs if models is provided for database procedure" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="-130" y="1205" width="170" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="hAEXb8o8DPtwy2nxSKh4-1" value="Django Framework" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" vertex="1" parent="1">
+          <mxGeometry x="630" width="399" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hAEXb8o8DPtwy2nxSKh4-2" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="20" as="sourcePoint" />
+            <mxPoint x="640" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hAEXb8o8DPtwy2nxSKh4-3" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="20" as="sourcePoint" />
+            <mxPoint x="1430" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hAEXb8o8DPtwy2nxSKh4-4" value="Attention:&lt;br&gt;Django looking for&amp;nbsp;&lt;br&gt;JS, CSS, Img in /static/. You can change it in settings.py" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="845" width="170" height="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
