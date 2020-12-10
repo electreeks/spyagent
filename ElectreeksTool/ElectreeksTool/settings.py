@@ -25,7 +25,7 @@ SECRET_KEY = 'w0yn$m1i0@!8cq3a&0!_9aaz%#t-4fhebx2+ae^!%ae7pa##o&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# Enter Server-Address here 
+# Enter Server-Address here
 ALLOWED_HOSTS = []
 
 
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'electreeksspy.apps.ElectreeksspyConfig',
 ]
 
 MIDDLEWARE = [
