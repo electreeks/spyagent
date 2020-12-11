@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="{% static 'electreeksspy/css/main.css' %}">
         <link rel="stylesheet" media="screen and (min-width: 1025px)" href="{% static 'electreeksspy/css/desktop.css' %}">
         <link rel="stylesheet" media="screen and (max-width: 1024px)" href="{% static 'electreeksspy/css/mobile.css' %}">
+        <script type="text/javascript" src="{% static 'electreeksspy/js/userstream.js' %}"></script>
     </head>
     <body>
         <header id="header">
@@ -28,7 +29,8 @@
             <div class="content-wrap">
                 <div class="flex-container">
                     <div id="main-leftcontainer-stream">
-                        <img id="InStream" src="{% static 'electreeksspy/img/dummybild.jpg' %}" width="100%"/>
+                        <!-- <img id="InStream" src="{% static 'electreeksspy/img/dummybild.jpg' %}" width="100%"/> -->
+                        <video autoplay="true" id="userStream" poster="{% static 'electreeksspy/img/dummybild.jpg' %}" width="100%">
                     </div>
                     <div id="main-rightcontainer-objectmodels">
                         <h4>Objectmodels</h4>
