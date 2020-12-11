@@ -30,23 +30,7 @@
 /* -- Content Desktop - */
 /* -------------------- */
 
-#page-container {
-    position: relative;
-    min-height: 50vh;
-}
-
-#content-wrap {
-    padding-top: 5px;       /* 2) */
-    padding-bottom: 70px;   /* 1) Footer height + 2) padding-top offset */
-}
-
-
-
-/* ----------------------- */
-/* Styles for single pages */
-/* ----------------------- */
-
-/* Home - Stream + Objectmodels */
+/* electreeksspy */
 
 #main-leftcontainer-stream {
     width: 65%;
