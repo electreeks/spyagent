@@ -1,5 +1,5 @@
 /* -------------------- */
-/* ------ Basics ------ */
+/* ------- Main ------- */
 /* -------------------- */
 
 @font-face {
@@ -17,20 +17,8 @@ html {
     background-color: #383936;
 }
 
-.flex-container {
-    display: flex;
-    flex-wrap: nowrap;
-    background-color: inherit;
-
-}
-.flex-container > div {
-        background-color:inherit;
-        margin: 3px;
-        padding-top: 5px;
-        font-size: auto;
-}
-
-/* Header */
+/* --- Header Main ---- */
+/* -------------------- */
 
 #header {
     padding-top: 5px;
@@ -38,7 +26,8 @@ html {
     border-bottom: 1px solid lightgray;
 }
 
-/* Footer */
+/* --- Footer Main ---- */
+/* -------------------- */
 
 #footer {
     padding-top: 5px;
@@ -50,11 +39,8 @@ html {
     border-top: 1px solid lightgray;
 }
 
-.footer-column {
-    width: 33%;
-}
-
-/* Content */
+/* --- Content Main --- */
+/* -------------------- */
 
 #page-container {
     position: relative;
@@ -66,6 +52,10 @@ html {
     padding-bottom: 70px;   /* 1) Footer height + 2) padding-top offset */
 }
 
+/* electreeksspy */
+
+
+
 
 
 /* ----------------------- */
@@ -73,13 +63,6 @@ html {
 /* ----------------------- */
 
 /* Home - Stream + Objectmodels */
-
-#main-leftcontainer-stream {
-    width: 65%;
-}
-#main-rightcontainer-objectmodels {
-    width: 45%;
-}
 
 #header-title {
     margin-block-start: 0em;

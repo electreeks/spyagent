@@ -1,26 +1,10 @@
 /* -------------------- */
-/* ------ Mobile ------ */
-/* -------------------- */
-
-
-/* --- Header Mobile -- */
-/* -------------------- */
-
-
-/* --- Footer Mobile -- */
-/* -------------------- */
-
-.footer-column {
-    width: 100%;
-}
-
-
-/* -- Content Mobile -- */
+/* ------ Desktop ----- */
 /* -------------------- */
 
 .flex-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     background-color: inherit;
 
 }
@@ -28,9 +12,23 @@
         background-color:inherit;
         margin: 3px;
         padding-top: 5px;
-        font-size: smaller;
+        font-size: medium;
 }
 
+/* -- Header Desktop -- */
+/* -------------------- */
+
+
+/* -- Footer Desktop -- */
+/* -------------------- */
+
+
+.footer-column {
+    width: 33%;
+}
+
+/* -- Content Desktop - */
+/* -------------------- */
 
 #page-container {
     position: relative;
@@ -51,8 +49,8 @@
 /* Home - Stream + Objectmodels */
 
 #main-leftcontainer-stream {
-    width: 100%;
+    width: 65%;
 }
 #main-rightcontainer-objectmodels {
-    width: 100%;
+    width: 45%;
 }
