@@ -7,20 +7,7 @@ from .objectrecognition import ObjectRecognition
 
 def index(request):
 
-    def klasseFunktion():
-        #img = cv2.imread("dummybild.jpg", -1)
-        recogniseObjects = ObjectRecognition()
-        recogniseObjects.start()
-
-
-        #return print(image.shape)
-        #plt.imshow(a)
-        #cv.waitKey(0)
-        #cv.destroyAllWindows()
-        #return img
-
-
     objecthandler = ObjectRecognition()
-    recognized_object = objecthandler.recognizedobject
+    recognized_object = objecthandler.doRecognition()
     Mapping = {'recognized_object': recognized_object}
     return render(request, 'electreeksspy/index.html', Mapping)

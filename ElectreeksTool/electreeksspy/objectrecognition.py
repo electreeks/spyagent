@@ -2,6 +2,7 @@ import numpy as np
 import cv2
 from time import sleep
 import threading
+import random
 
 """
 def halloTest():
@@ -23,9 +24,8 @@ def halloTest():
 
 
 
-class ObjectRecognition(threading.Thread):
+class ObjectRecognition():
     def __init__ (self):
-        threading.Thread.__init__(self)
         self.__ObjectsNames = {0: 'background',
                       1: 'person', 2: 'bicycle', 3: 'car', 4: 'motorcycle', 5: 'airplane', 6: 'bus',
                       7: 'train', 8: 'truck', 9: 'boat', 10: 'traffic light', 11: 'fire hydrant',
@@ -52,62 +52,64 @@ class ObjectRecognition(threading.Thread):
         self.__model = cv2.dnn.readNetFromTensorflow('models/frozen_inference_graph.pb',
                                               'models/ssd_mobilenet_v2_coco_2018_03_29.pbtxt')
 
-        # Mit dieser Variable wurde getestet ob ich in views darauf zugreifen kann, wenn ich Instanz zuweise. Klappt - aber wirft Fehlr zurück, wenn diese im Code geändert wird.                                
-        self.recognizedobject = "Käsemaik"
+        # Mit dieser Variable wurde getestet ob ich in views darauf zugreifen kann, wenn ich Instanz zuweise. Klappt - aber wirft Fehlr zurück, wenn diese im Code geändert wird.
+        self.recognizedobject = []
 
-    def run(self):
+    def doRecognition(self):
         print("Neutstart")
-        while(True):
-            # Capture frame-by-frame
-            ret, image = self.__cap.read()
+        # Capture frame-by-frame
+        ret, image = self.__cap.read()
 
-            # Our operations on the frame come here
-            #gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        # Our operations on the frame come here
+        #gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
-            #Getting height and shape of image
-            image_height, image_width, _ = image.shape
+        #Getting height and shape of image
+        image_height, image_width, _ = image.shape
 
-            blob=cv2.dnn.blobFromImage(image, size=(299, 299), swapRB=True)
-            #print("First Blob: {}".format(blob.shape))
-
-
-            #set blob as input to model
-            self.__model.setInput(cv2.dnn.blobFromImage(image, size=(299, 299), swapRB=True))
+        blob=cv2.dnn.blobFromImage(image, size=(299, 299), swapRB=True)
+        #print("First Blob: {}".format(blob.shape))
 
 
-            def id_Object_class(class_id, classes):
-                for key_id, class_name in classes.items():
-                    if class_id == key_id:
-                        return class_name
+        #set blob as input to model
+        self.__model.setInput(cv2.dnn.blobFromImage(image, size=(299, 299), swapRB=True))
 
-            output = self.__model.forward()
+
+        def id_Object_class(class_id, classes):
+            for key_id, class_name in classes.items():
+                if class_id == key_id:
+                    return class_name
+
+        output = self.__model.forward()
             #print(output[0,0,:,:])
             #print(output)
-            for detection in output[0, 0, :, :]:
-                confidence = detection[2]       #confidence for occuring a class
+        for detection in output[0, 0, :, :]:
+            confidence = detection[2]       #confidence for occuring a class
                 #print(detection[2])
-                if confidence > .35:            #threshold
-                    class_id = detection[1]
-                    print(detection[1])
-                    class_name=id_Object_class(class_id,self.__ObjectsNames)       #calling id_Object_class function
-                    print(str(str(class_id) + " " + str(detection[2])  + " " + class_name))
-                    box_x = detection[3] * image_width
-                    box_y = detection[4] * image_height
-                    box_width = detection[5] * image_width
-                    box_height = detection[6] * image_height
-                    cv2.rectangle(image, (int(box_x), int(box_y)), (int(box_width),
-                                        int(box_height)), (23, 230, 210), thickness=1) #drawing rectangle
-                    cv2.putText(image,class_name ,(int(box_x), int(box_y+.05*image_height)),
-                    cv2.FONT_HERSHEY_SIMPLEX,(.005*image_width),(0, 0, 255)) #text
+            if confidence > .35:            #threshold
+                class_id = detection[1]
+                print(detection[1])
+                class_name=id_Object_class(class_id,self.__ObjectsNames)       #calling id_Object_class function
+                print(str(str(class_id) + " " + str(detection[2])  + " " + class_name))
+                box_x = detection[3] * image_width
+                box_y = detection[4] * image_height
+                box_width = detection[5] * image_width
+                box_height = detection[6] * image_height
+                cv2.rectangle(image, (int(box_x), int(box_y)), (int(box_width),
+                                    int(box_height)), (23, 230, 210), thickness=1) #drawing rectangle
+                cv2.putText(image,class_name ,(int(box_x), int(box_y+.05*image_height)),
+                cv2.FONT_HERSHEY_SIMPLEX,(.005*image_width),(0, 0, 255)) #text
+                self.recognizedobject.append(class_name)
+
             # Display the resulting frame
             # cv2.imshow('frame',image)
             # if cv2.waitKey(1) & 0xFF == ord('q'):
             #    break
 
         # When everything done, release the capture
+        return self.recognizedobject
         self.__cap.release()
         cv2.destroyAllWindows()
 
 
-recogniseObjects = ObjectRecognition()
-recogniseObjects.start()
+#recogniseObjects = ObjectRecognition()
+#recogniseObjects.start()
