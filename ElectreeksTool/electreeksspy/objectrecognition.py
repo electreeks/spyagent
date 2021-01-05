@@ -53,6 +53,7 @@ class ObjectRecognition(threading.Thread):
                                               'models/ssd_mobilenet_v2_coco_2018_03_29.pbtxt')
 
     def run(self):
+        print("Neutstart")
         while(True):
             # Capture frame-by-frame
             ret, image = self.__cap.read()
@@ -105,5 +106,5 @@ class ObjectRecognition(threading.Thread):
         cv2.destroyAllWindows()
 
 
-#recogniseObjects = ObjectRecognition()
-#recogniseObjects.start()
+recogniseObjects = ObjectRecognition()
+recogniseObjects.start()

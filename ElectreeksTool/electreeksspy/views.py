@@ -21,6 +21,7 @@ def index(request):
 
 
 
-    smalltest = klasseFunktion() #halloTest()
-    Mapping = {'smalltest': smalltest}
+    stupid = "Hifisch"
+    smalltest = ""#klasseFunktion() #halloTest()
+    Mapping = {'smalltest': smalltest, 'stupid': stupid}
     return render(request, 'electreeksspy/index.html', Mapping)

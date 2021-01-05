@@ -4,6 +4,7 @@
         <title>[Sitetitle] | [Pagetitle]</title>
         {% load static %}
         <meta charset="utf-8"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link rel="stylesheet" href="{% static 'electreeksspy/css/main.css' %}">
         <link rel="stylesheet" media="screen and (min-width: 1025px)" href="{% static 'electreeksspy/css/desktop.css' %}">
         <link rel="stylesheet" media="screen and (max-width: 1024px)" href="{% static 'electreeksspy/css/mobile.css' %}">
@@ -36,6 +37,7 @@
                         <h4>Objectmodels</h4>
                         <p>Hier Tabelle mit Objekten, Anzahl erkannte Objekte und average Treshold</p>
                         <p>{{ smalltest }}</p>
+                        <div id="jshandler2">{{ stupid }}</div>
                     </div>
                 </div>
             </div>
