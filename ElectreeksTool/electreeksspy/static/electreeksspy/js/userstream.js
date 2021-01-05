@@ -1,17 +1,11 @@
 window.addEventListener("load", function(){
 
   var video = document.querySelector("#userStream");
-  var jshandler = document.querySelector("#jshandler");
-  var stupid = "{{ stupid }}";
 
   let refresh = setInterval(function() {
-    $('#jshandler2').load(document.URL +  ' #jshandler2');
-  }, 2000);
- /*
-  let refresh = setInterval(function() {
-    $('#jshandler').load(document.URL +  ' #jshandler');
-  }, 2000);
-*/
+    $('#js_page_refresher').load(document.URL +  ' #js_page_refresher');
+  }, 1000);
+
   if (navigator.mediaDevices.getUserMedia) {
     navigator.mediaDevices.getUserMedia({ video: true })
       .then(function (stream) {
