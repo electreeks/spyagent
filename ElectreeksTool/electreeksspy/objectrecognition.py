@@ -52,6 +52,9 @@ class ObjectRecognition(threading.Thread):
         self.__model = cv2.dnn.readNetFromTensorflow('models/frozen_inference_graph.pb',
                                               'models/ssd_mobilenet_v2_coco_2018_03_29.pbtxt')
 
+        # Mit dieser Variable wurde getestet ob ich in views darauf zugreifen kann, wenn ich Instanz zuweise. Klappt - aber wirft Fehlr zurück, wenn diese im Code geändert wird.                                
+        self.recognizedobject = "Käsemaik"
+
     def run(self):
         print("Neutstart")
         while(True):

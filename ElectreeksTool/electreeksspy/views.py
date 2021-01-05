@@ -20,8 +20,7 @@ def index(request):
         #return img
 
 
-
-    stupid = "Hifisch"
-    smalltest = ""#klasseFunktion() #halloTest()
-    Mapping = {'smalltest': smalltest, 'stupid': stupid}
+    objecthandler = ObjectRecognition()
+    recognized_object = objecthandler.recognizedobject
+    Mapping = {'recognized_object': recognized_object}
     return render(request, 'electreeksspy/index.html', Mapping)
