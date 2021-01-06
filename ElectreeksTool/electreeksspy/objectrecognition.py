@@ -3,6 +3,12 @@ import cv2
 
 
 class ObjectRecognition():
+    """
+    Class for Objectrecognition. Capture Frame and find objects based on model an treshold.
+    doRecognition - Triggered by JS/Ajax #js_page_refresher.
+    returns dictionary with object name and confidence.
+    """
+
     def __init__ (self):
         # Pretrained classes in the model
         self.__ObjectsNames = {0: 'background',
@@ -27,27 +33,22 @@ class ObjectRecognition():
 
         # Get user stream
         self.__cap = cv2.VideoCapture(0)
+
         # Loading models
         self.__model = cv2.dnn.readNetFromTensorflow('models/frozen_inference_graph.pb',
                                               'models/ssd_mobilenet_v2_coco_2018_03_29.pbtxt')
 
-        # Das in Dictionairy umwandeln und confidence hinzufügen
-        self.recognized_objects = []
+        # Dictionary which will cerry the objectname (key) and the confidence (value)
+        self.recognized_objects = {}
 
     def doRecognition(self):
-        print("Neutstart")
-        # Capture frame-by-frame
+        # Capture frame
         ret, image = self.__cap.read()
-
-        # Our operations on the frame come here
-        #gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
         #Getting height and shape of image
         image_height, image_width, _ = image.shape
 
         blob=cv2.dnn.blobFromImage(image, size=(299, 299), swapRB=True)
-        #print("First Blob: {}".format(blob.shape))
-
 
         #set blob as input to model
         self.__model.setInput(cv2.dnn.blobFromImage(image, size=(299, 299), swapRB=True))
@@ -64,11 +65,11 @@ class ObjectRecognition():
         for detection in output[0, 0, :, :]:
             confidence = detection[2]       #confidence for occuring a class
                 #print(detection[2])
-            if confidence > .35:            #threshold
+            if confidence > .60:            #threshold
                 class_id = detection[1]
-                print(detection[1])
+                #print(detection[1])
                 class_name=id_Object_class(class_id,self.__ObjectsNames)       #calling id_Object_class function
-                print(str(str(class_id) + " " + str(detection[2])  + " " + class_name))
+                #print(str(str(class_id) + " " + str(detection[2])  + " " + class_name))
                 box_x = detection[3] * image_width
                 box_y = detection[4] * image_height
                 box_width = detection[5] * image_width
@@ -77,12 +78,8 @@ class ObjectRecognition():
                                     int(box_height)), (23, 230, 210), thickness=1) #drawing rectangle
                 cv2.putText(image,class_name ,(int(box_x), int(box_y+.05*image_height)),
                 cv2.FONT_HERSHEY_SIMPLEX,(.005*image_width),(0, 0, 255)) #text
-                self.recognized_objects.append(class_name)
+                self.recognized_objects[class_name.capitalize()] = "{:.2f}".format(detection[2])
 
         return self.recognized_objects
-        self.__cap.release()
-        cv2.destroyAllWindows()
-
-
-#recogniseObjects = ObjectRecognition()
-#recogniseObjects.start()
+        #self.__cap.release()
+        #cv2.destroyAllWindows()
