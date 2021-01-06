@@ -1,5 +1,5 @@
 window.addEventListener("load", function(){
-
+/*
   var video = document.querySelector("#userStream");
 
   let refresh = setInterval(function() {
@@ -17,6 +17,6 @@ window.addEventListener("load", function(){
       });
   }
 
-
+*/
 
 });

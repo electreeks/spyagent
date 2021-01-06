@@ -1,10 +1,12 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html land="en">
     <head>
-        <title>[Sitetitle] | [Pagetitle]</title>
-        {% load static %}
+        <title>{{ pagetitle }} | {{ subtitle }}</title>
         <meta charset="utf-8"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="shortcut icon" type="image/png" href="{% static 'electreeksspy/img/favicon.png' %}"/>
         <link rel="stylesheet" href="{% static 'electreeksspy/css/main.css' %}">
         <link rel="stylesheet" media="screen and (min-width: 1025px)" href="{% static 'electreeksspy/css/desktop.css' %}">
         <link rel="stylesheet" media="screen and (max-width: 1024px)" href="{% static 'electreeksspy/css/mobile.css' %}">
@@ -20,8 +22,8 @@
                         </a>
                     </div>
                     <div class="header-left-wrap">
-                        <h1 class="headertitle electreeksspytitle">Electreeks [Pagetitle]</h1>
-                        <h2 class="headersubtitle electreeksspysubtitle">Spy [Sitetitle]</h2>
+                        <h1 class="headertitle electreeksspytitle">{{ pagetitle }}</h1>
+                        <h2 class="headersubtitle electreeksspysubtitle">{{ subtitle }}</h2>
                     </div>
                 </div>
             </nav>
@@ -29,11 +31,17 @@
         <div class="page-container">
             <div class="content-wrap">
                 <div class="flex-container">
+
+
                     <div id="main-leftcontainer-stream">
                         <!-- <img id="InStream" src="{% static 'electreeksspy/img/dummybild.jpg' %}" width="100%"/> -->
-                        <video autoplay="true" id="userStream" poster="{% static 'electreeksspy/img/dummybild.jpg' %}" width="100%">
+                        <video autoplay="true" id="userStream" poster="{% static 'electreeksspy/img/camera-placeholder.jpg' %}" width="100%">
                     </div>
+
+
                     <div id="main-rightcontainer-objectmodels">
+                        <h3>Object Tracking</h3>
+                        <hr>
                         <h4>recognized object</h4>
                         <p id="js_page_refresher">{{ recognized_object }}</p>
                     </div>
@@ -41,13 +49,13 @@
             </div>
             <footer id="footer" class="flex-container">
                     <div class="footer-column">
-                        Hallo
+                        	&copy; 2020 {{ pagetitle }} - Hans Umlauft
                     </div>
                     <div class="footer-column">
-                        Hallo
+                        ⎋ <a href="https://electreeks.de">Homepage Electreeks</a>
                     </div>
                     <div class="footer-column">
-                        Hallo
+                        Please respect the privacy of every person!
                     </div>
 
             </footer>

@@ -1,31 +1,10 @@
 import numpy as np
 import cv2
-from time import sleep
-import threading
-import random
-
-"""
-def halloTest():
-    #img = cv2.imread("dummybild.jpg", -1)
-    #myimg = File(img)
-    #return print(myimg.shape)
-    cap = cv2.VideoCapture('http://192.168.178.28:8000/?action=stream')
-    sleep(1)
-    ret, image = cap.read()
-    sleep(1)
-    cv2.imwrite('somepicture.png',image)
-    return image
-
-"""
-
-#Pretrained classes in the model
-
-
-
 
 
 class ObjectRecognition():
     def __init__ (self):
+        # Pretrained classes in the model
         self.__ObjectsNames = {0: 'background',
                       1: 'person', 2: 'bicycle', 3: 'car', 4: 'motorcycle', 5: 'airplane', 6: 'bus',
                       7: 'train', 8: 'truck', 9: 'boat', 10: 'traffic light', 11: 'fire hydrant',
@@ -52,8 +31,8 @@ class ObjectRecognition():
         self.__model = cv2.dnn.readNetFromTensorflow('models/frozen_inference_graph.pb',
                                               'models/ssd_mobilenet_v2_coco_2018_03_29.pbtxt')
 
-        # Mit dieser Variable wurde getestet ob ich in views darauf zugreifen kann, wenn ich Instanz zuweise. Klappt - aber wirft Fehlr zurück, wenn diese im Code geändert wird.
-        self.recognizedobject = []
+        # Das in Dictionairy umwandeln und confidence hinzufügen
+        self.recognized_objects = []
 
     def doRecognition(self):
         print("Neutstart")
@@ -98,15 +77,9 @@ class ObjectRecognition():
                                     int(box_height)), (23, 230, 210), thickness=1) #drawing rectangle
                 cv2.putText(image,class_name ,(int(box_x), int(box_y+.05*image_height)),
                 cv2.FONT_HERSHEY_SIMPLEX,(.005*image_width),(0, 0, 255)) #text
-                self.recognizedobject.append(class_name)
+                self.recognized_objects.append(class_name)
 
-            # Display the resulting frame
-            # cv2.imshow('frame',image)
-            # if cv2.waitKey(1) & 0xFF == ord('q'):
-            #    break
-
-        # When everything done, release the capture
-        return self.recognizedobject
+        return self.recognized_objects
         self.__cap.release()
         cv2.destroyAllWindows()
 
