@@ -11,22 +11,19 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
+import os
+import json
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+with open(str(BASE_DIR) + '/ElectreeksTool/config.json') as config_file:
+    config = json.load(config_file)
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'w0yn$m1i0@!8cq3a&0!_9aaz%#t-4fhebx2+ae^!%ae7pa##o&'
-
-# SECURITY WARNING: don't run with debug turned on in production!
+SECRET_KEY = config['SECRET_KEY']
 DEBUG = True
-
-# Enter Server-Address here
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 
 # Application definition
@@ -72,19 +69,12 @@ TEMPLATES = [
 WSGI_APPLICATION = 'ElectreeksTool.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/3.1/ref/settings/#databases
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
-
-# Password validation
-# https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {

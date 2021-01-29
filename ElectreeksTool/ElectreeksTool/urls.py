@@ -18,5 +18,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('electreeksspy/', include('electreeksspy.urls')),
+    # Set App Electreeks SpyAgent as Homescreen
+    path(r'', include('electreeksspy.urls')),
 ]
