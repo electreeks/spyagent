@@ -43,26 +43,29 @@ class ObjectRecognition():
 
         # Dictionary which carry the objectname (key) and the confidence (value)
         self.recognizedObjects = {}
-
     def doRecognition(self, inputStream, confidenceTreshold):
-        cap = cv2.VideoCapture(inputStream)
-        ret, image = cap.read()
-        image_height, image_width, _ = image.shape
-        blob=cv2.dnn.blobFromImage(image, size=(299, 299), swapRB=True)
+        try:
+            cap = cv2.VideoCapture(inputStream)
+            ret, image = cap.read()
+            image_height, image_width, _ = image.shape
+            blob=cv2.dnn.blobFromImage(image, size=(299, 299), swapRB=True)
 
-        #set blob as input to model
-        self.__model.setInput(cv2.dnn.blobFromImage(image, size=(299, 299), swapRB=True))
+            #set blob as input to model
+            self.__model.setInput(cv2.dnn.blobFromImage(image, size=(299, 299), swapRB=True))
 
-        def id_Object_class(class_id, classes):
-            for key_id, class_name in classes.items():
-                if class_id == key_id:
-                    return class_name
+            def id_Object_class(class_id, classes):
+                for key_id, class_name in classes.items():
+                    if class_id == key_id:
+                        return class_name
 
-        output = self.__model.forward()
-        for detection in output[0, 0, :, :]:
-            confidence = detection[2]       #confidence for occuring a class
-            if confidence > confidenceTreshold:            #threshold
-                class_id = detection[1]
-                class_name=id_Object_class(class_id,self.__ObjectsNames)       #calling id_Object_class function
-                self.recognizedObjects[class_name.capitalize()] = "{:.2f}".format(detection[2])
+            output = self.__model.forward()
+            for detection in output[0, 0, :, :]:
+                confidence = detection[2]       #confidence for occuring a class
+                if confidence > confidenceTreshold:            #threshold
+                    class_id = detection[1]
+                    class_name=id_Object_class(class_id,self.__ObjectsNames)       #calling id_Object_class function
+                    self.recognizedObjects[class_name.capitalize()] = "{:.2f}".format(detection[2])
+        except:
+            print("Your stream isn't available (anymore).")
+
         return self.recognizedObjects

@@ -1,0 +1,37 @@
+/* -------------------- */
+/* ------ Desktop ----- */
+/* -------------------- */
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: inherit;
+
+}
+.flex-container > div {
+    background-color:inherit;
+    margin: 3px;
+    padding-top: 5px;
+    font-size: medium;
+}
+
+.stream-wrapper {
+    width: 50%;
+}
+
+/* -- Header Desktop -- */
+/* -------------------- */
+
+
+/* -- Footer Desktop -- */
+/* -------------------- */
+
+
+.footer-column {
+    width: 33%;
+}
+
+/* -- Content Desktop - */
+/* -------------------- */
+
+/* electreeksspy Desktop */
