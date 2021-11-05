@@ -92,7 +92,7 @@ Have fun!
 
 Object recognition need a lot of resources, therefore it's not sustainable to use it on a Raspberry Pi. That's why you should provide a stream via Raspberry Pi and run our tool on a pc using this streaming url!
 
-
+SpyAgent is only optimized for Google Chrome - In other browser it may not automatically update the recognized objects
 
 Disclaimer:
 Do not use it on a server whose freely accessible from internet, because secret credentials aren't secured due GitHub publication. 
