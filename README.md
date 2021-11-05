@@ -1,6 +1,8 @@
 # spyagent
 A simple remote raspberry pi camera stream view with object recognition from local pc
 
+![alt text](https://electreeks.de/wp-content/uploads/2021/02/ai-raspberry-pi-objekterkennung-bilderkennung-electreeks-spy-agent.png)
+
 # Welcome to Electreeks SpyAgent!
 
 A simple tool for object recognition using http livestreams (i.e. of your Pi) with about 90 different object-classes. 
