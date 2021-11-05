@@ -27,10 +27,6 @@ print("  we recommend to use MJPG-Streamer")
 print("- Please remember that this will only work in your local network!")
 print("  To enter your Camera from internet you have open a port for it.")
 print("  Find more in the tutorials on https://electreeks.de \n")
-# inputStream = input('Streaming URL: ')
-
-# spyagent
-# pass
 
 # Site information
 pagetitle = "Electreeks®"
